@@ -16,3 +16,5 @@ $cmd/api/app/controller/controller.go,6/9/6948978885f59e2fa8c2b49b267c623d72cd2
 :
 
 Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+F
+cmd/api/app/Dockerfile,3/b/3bda32056ebdf8d1f63585cd06871e9623c972ff

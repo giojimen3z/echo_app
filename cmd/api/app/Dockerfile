@@ -8,11 +8,11 @@ WORKDIR /app
 RUN apk add --no-cache git gcc libc-dev
 
 # Copiar go.mod y go.sum y descargar las dependencias
-COPY go.mod go.sum ./
+COPY ../../../go.mod go.sum ./
 RUN go mod download
 
 # Copiar el resto del código fuente
-COPY . .
+COPY ../../.. .
 
 # Compilar la aplicación, desactivar cgo para crear un binario estático
 RUN CGO_ENABLED=0 GOOS=linux go build -o /bin/pingpong echo_app/cmd/api/app/main.go
