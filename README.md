@@ -10,7 +10,7 @@ Esta es una aplicación simple escrita en Go que utiliza el framework Echo para 
 ## Endpoint Disponible
 
 - **POST /myapp/ping**
-    - **Descripción:** Este endpoint recibe peticiones POST y simplemente responde con un "pong".
+    - **Descripción:** Este endpoint recibe peticiones GET y simplemente responde con un "pong".
     - **Respuestas:**
         - `200 OK`: Devuelve "pong" si la solicitud es correcta.
         - `500 Internal Server Error`: Devuelve un error de servidor si ocurre cualquier otro caso.

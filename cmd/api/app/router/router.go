@@ -7,5 +7,5 @@ import (
 
 // SetupRoutes configura todas las rutas para la aplicación
 func SetupRoutes(e *echo.Echo) {
-	e.POST("/echo-app/ping", controller.HandlePing)
+	e.GET("/echo-app/ping", controller.HandlePing)
 }
