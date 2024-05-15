@@ -1,3 +1,6 @@
 
-Hdocker:S6596")Use a specific version tag for the image.(Ô–º‹8ä¨ÏÄö1
-Hdocker:S6476")Replace `as` with upper case format `AS`.(¤ËµÓ8ç¨ÏÄö1
+Mdocker:S6596")Use a specific version tag for the image.(¡ú™€ıÿÿÿÿ8µíÏ÷1
+Hdocker:S6596")Use a specific version tag for the image.(°ˆâÌ8µíÏ÷1
+Mdocker:S6476")Replace `as` with upper case format `AS`.(¡ú™€ıÿÿÿÿ8¶íÏ÷1
+Kdocker:S6587"'Remove cache after installing packages.(ÊÛ”Éüÿÿÿÿ8¶íÏ÷1
+Kdocker:S6587"'Remove cache after installing packages.(åÆ±÷úÿÿÿÿ8·íÏ÷1
